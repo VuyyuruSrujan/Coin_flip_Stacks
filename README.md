@@ -1,52 +1,59 @@
-# 🎲 Coin Flip Game on Stacks Blockchain
+# 🎲 **Coin Flip Game on Stacks Blockchain** 🎲
+
+---
+
+![Stacks](https://img.shields.io/badge/Stacks-Testnet-blue?style=for-the-badge&logo=stacks)  
+![Language: Clarity](https://img.shields.io/badge/Language-Clarity-purple?style=for-the-badge)  
+![Status](https://img.shields.io/badge/Status-Development-orange?style=for-the-badge)
+
+---
 
 ## 📜 Project Description  
-This project is a simple, decentralized coin flip guessing game implemented as a **Clarity smart contract** on the **Stacks Testnet**. Two players participate: Player 1 secretly picks a coin side (Heads or Tails), and Player 2 guesses it. The smart contract determines the winner transparently and trustlessly — all logic runs on-chain, eliminating any need for intermediaries or servers.
+This project is a **simple decentralized coin flip guessing game** implemented as a **Clarity smart contract** on the **Stacks Testnet**.  
+Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The winner is declared transparently and trustlessly — **all logic runs on-chain!**
 
 ---
 
 ## 🔭 Project Vision  
-The vision behind this project is to demonstrate the power and simplicity of building interactive games using Clarity smart contracts on the Stacks blockchain. By implementing a basic game with clear rules and verifiable outcomes, this project aims to:
-
-- Showcase how on-chain logic can enable trustless gaming.
-- Encourage developers to explore blockchain beyond tokens and DeFi.
-- Lay the groundwork for more complex decentralized gaming experiences.
+> To **showcase the power of Clarity** and how simple interactive games can be built trustlessly on the blockchain.  
+> Encourage blockchain gaming innovation beyond tokens & DeFi.
 
 ---
 
 ## ⭐ Key Features
 
-- ✅ **Start Game:** Player 1 starts the game by selecting a coin side.
-- 🧩 **Make Guess:** Player 2 guesses the coin side.
-- 🏆 **Determine Winner:** The contract compares Player 2’s guess with Player 1’s choice and declares the winner.
-- 🔐 **Access Control:** Prevents Player 1 from guessing and disallows guesses before game start or after finish.
-- 🔁 **Single Round:** Each game allows only one guess and then ends.
+- ✅ **Game Start:** Player 1 picks the coin side.
+- 🎯 **Guess:** Player 2 guesses the coin side.
+- 🏆 **Winner Detection:** Contract decides winner automatically.
+- 🔒 **Secure:** Prevents cheating, enforces turn rules.
+- 🔁 **Single Round:** One guess per game, then ends.
 
 ---
 
 ## 🚀 Future Scope
 
-- 💰 **Betting & Payouts:** Add STX wagering mechanics with automated payouts.
-- 🔒 **Commit-Reveal Scheme:** Hide Player 1’s choice until guess is made to prevent cheating.
-- 🎨 **Frontend UI:** Build an easy-to-use interface using React + Stacks.js.
-- 🎮 **Multi-Round Gameplay:** Allow multiple rounds or best-of-three matches.
-- 🏅 **NFT Rewards:** Mint NFTs as victory badges or participation tokens.
-- 🌐 **Multiplayer Lobby:** Enable many concurrent games with matchmaking.
+| Feature              | Description                                  |
+|----------------------|----------------------------------------------|
+| 💰 Betting           | Add STX wagering and payout logic            |
+| 🔒 Commit-Reveal     | Hide Player 1's choice until guess made      |
+| 🎮 Frontend UI       | Build React + Stacks.js user interface       |
+| 🔄 Multi-Round       | Enable best-of-three games                    |
+| 🏅 NFT Rewards       | Mint NFTs as victory or participation badges |
+| 🌐 Multiplayer Lobby | Support multiple games and matchmaking       |
 
 ---
 
 ## 🧱 Built With
 
-| Tool       | Purpose                                     |
-|------------|---------------------------------------------|
-| 🔤 Clarity | Language for writing smart contracts on Stacks |
-| 🔧 Clarinet| Development and testing framework for Clarity contracts |
+| Tool        | Purpose                               |
+|-------------|-------------------------------------|
+| 🔤 Clarity  | Smart contract language on Stacks   |
+| 🔧 Clarinet | Testing & deployment framework       |
 
 ---
 
 ## 🛠 How to Deploy and Test
 
-### Deploy on Stacks Testnet
-
+**Deploy on Stacks Testnet:**  
 ```bash
 clarinet deployments apply --testnet
