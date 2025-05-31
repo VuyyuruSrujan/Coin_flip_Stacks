@@ -57,7 +57,7 @@ Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The wi
 **Deploy on Stacks Testnet:**  
 ```bash
 clarinet deployments apply --testnet
-
+```
 ---
 
 ## 📎 Tech Stack
