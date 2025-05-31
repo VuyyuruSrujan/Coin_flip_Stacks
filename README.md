@@ -61,9 +61,8 @@ clarinet deployments apply --testnet
 ----
 ----
 ## Contractdetails
-![Guess Game Contract Deployment](![Screenshot (15)](https://github.com/user-attachments/assets/db43bf8f-bb64-493c-9375-75e4c6c16783)
-)
-)
+![Guess Game Contract Deployment](https://github.com/user-attachments/assets/db43bf8f-bb64-493c-9375-75e4c6c16783)
+
 ## 🙌 Contributions
 
 Open to suggestions, enhancements, or forks for similar Clarity mini-games!
