@@ -61,7 +61,8 @@ clarinet deployments apply --testnet
 ----
 ----
 ## Contractdetails
-![Guess Game Contract Deployment](https://github.com/user-attachments/assets/db43bf8f-bb64-493c-9375-75e4c6c16783)
+![Guess Game Contract Deployment](![Screenshot (15)](https://github.com/user-attachments/assets/a18e3aca-09c9-4a74-ae88-2b52e2860013)
+)
 
 ## 🙌 Contributions
 
