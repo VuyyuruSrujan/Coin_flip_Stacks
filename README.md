@@ -22,10 +22,10 @@ Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The wi
 
 ## ⭐ Key Features
 
-- ✅ **Game Start:** Player 1 picks the coin side.
-- 🎯 **Guess:** Player 2 guesses the coin side.
-- 🏆 **Winner Detection:** Contract decides winner automatically.
-- 🔒 **Secure:** Prevents cheating, enforces turn rules.
+- ✅ **Game Start:** Player 1 picks the coin side.  
+- 🎯 **Guess:** Player 2 guesses the coin side.  
+- 🏆 **Winner Detection:** Contract decides winner automatically.  
+- 🔒 **Secure:** Prevents cheating, enforces turn rules.  
 - 🔁 **Single Round:** One guess per game, then ends.
 
 ---
@@ -45,10 +45,10 @@ Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The wi
 
 ## 🧱 Built With
 
-| Tool        | Purpose                               |
+| Tool        | Purpose                             |
 |-------------|-------------------------------------|
 | 🔤 Clarity  | Smart contract language on Stacks   |
-| 🔧 Clarinet | Testing & deployment framework       |
+| 🔧 Clarinet | Testing & deployment framework      |
 
 ---
 
@@ -58,8 +58,6 @@ Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The wi
 ```bash
 clarinet deployments apply --testnet
 
-----
-----
 ## Contractdetails
 ![Guess Game Contract Deployment](![Screenshot (15)](https://github.com/user-attachments/assets/a18e3aca-09c9-4a74-ae88-2b52e2860013)
 )
