@@ -58,11 +58,20 @@ Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The wi
 ```bash
 clarinet deployments apply --testnet
 
-### Contractdetails
-![Guess Game Contract Deployment](![Screenshot (15)](https://github.com/user-attachments/assets/a18e3aca-09c9-4a74-ae88-2b52e2860013)
-)
+---
 
+## 📎 Tech Stack
+
+- 💎 **Stacks Blockchain**
+- 📘 **Clarity Smart Contracts**
+- 🧪 **Clarinet** (for local development & testing)
+
+---
+## Contractdetails
+![Guess Game Contract Deployment](![Screenshot (15)](https://github.com/user-attachments/assets/dd6436db-7d29-4234-b4ef-bd67ee1aa283)
+)
 ## 🙌 Contributions
 
 Open to suggestions, enhancements, or forks for similar Clarity mini-games!
+
 
