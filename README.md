@@ -58,6 +58,7 @@ Two players: Player 1 picks Heads or Tails secretly, Player 2 guesses it. The wi
 ```bash
 clarinet deployments apply --testnet
 
+----
 
 ## Contractdetails
 ![Guess Game Contract Deployment](![Screenshot (15)](https://github.com/user-attachments/assets/b81266c1-0714-4c7e-a723-dec7dcfcd6b2)
